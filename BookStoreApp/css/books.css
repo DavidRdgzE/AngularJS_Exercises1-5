@@ -1,0 +1,17 @@
+a{
+	padding-right: 20px;
+	font-family: comic;
+	font-size: 25px;
+	font-style: italic;
+	font-style: bold;
+	color: white;
+}
+
+body{
+	background-image: url("../public/img/fondo2.png");
+}
+
+#pn{
+	background-color: brown;
+	font-size: 15px;
+}

@@ -1,0 +1,75 @@
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="css/leftbar.css">
+<br><br><br>
+<h2 align="center" style="color: white">BookStore App</h2>
+
+<p align="center" id="inp">
+
+Titulo: <input ng-model="query.id" placeholder="BUSCAR" id="inp">
+
+<strong style="margin-left: 20px" id="inp">Ordenar</strong>
+ <select ng-model="orderField" id="inp">
+ 		<option value="id">ID</option>
+ 		<option value="titulo">Titulo</option>
+        <option value="editorial">Editorial</option>
+    </select>
+</p>
+
+<div class="container-fluid">
+	<div class="col-lg-12">
+		<div class="row">
+			<div class="col-lg-2" id="rowleft">
+				<div class="row">
+					<div class="col-lg-10">
+						<h2 id="h2n">Mejor Libro</h2>
+						<img src="public/img/cinco.png" alt="Mejor_Libro" width="70%">
+					</div>
+				</div>
+				<div class="row">
+				<br><br><br>
+					<div class="col-lg-10">
+						<h2 id="h2n">Mejores Escritores</h2>
+						<p id="pn">1) J. K. Rowling</p>
+						<p id="pn">2) Pedro Paramo</p>
+						<p id="pn">3) Evander Sanders</p>
+					</div>
+				</div>
+				<div class="row">
+				<br><br><br>
+					<div class="col-lg-10">
+						<h2 id="h2n">Proximos Libros</h2>
+						<p id="pn">1) Harry Potter y las Reliquias de la Muerta Parte I</p>
+						<p id="pn">2) Harry Potter y las Reliquias de la Muerta Parte II</p>
+						<p id="pn">3) Aztecas</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-10">
+						<br><br><br>
+						<h2 id="h2n">Noticias</h2>
+						<p id="pn">Segun un estudio de la Real Academia de la Lectura, las personas que leen constantemente libros aumentan su capacidad de razonar, ademas de que amplian su lenguaje tecnico y profesionar en un 50%.</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-9">
+				<div class="row" id="rowb">
+					<ul>
+    					<li ng-repeat="obj in libros | filter:query.id | orderBy:orderField">
+    						<div ng-include src=" 'detalle_libro.html' "></div>
+    					</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+ 
+
+
+

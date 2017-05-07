@@ -1,0 +1,27 @@
+#rowleft{
+	border: 3px solid red;
+	margin-right: 5px;
+	background-color: gray;
+}
+
+#h2n{
+	color: black;
+	background-color: white;
+}
+
+#pn{
+	font-family: comic;
+	font-style: bold;
+	font-style: italic;
+	font-size: 20px;
+	color: #f8f8f8;
+}
+
+#rowb{
+	background-color: brown;
+}
+
+#inp{
+	color: black;
+	font-style: bold;
+}

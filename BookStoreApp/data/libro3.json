@@ -1,0 +1,12 @@
+ [
+    {
+	 "id": "3",
+	 "titulo": "MochaDick",
+ 	 "autor": "Francisco Ortega",
+ 	 "editorial": "Editorial Norma",
+ 	 "descripcion": "Mocha Dick es una novela grafica, que recoge la leyenda de una ballena albina habitante de los mares del sur, la misma que sirvio de inspiracion a Herman Melville para su Moby Dick. Se trata de una original propuesta en el genero de la novela grafica cuyos autores unen la rica informacion de situaciones historicas, geografia y ambientes con un profesional uso de la tecnica narrativa del comic y textos de calidad literaria. La historia esta contada con emocion, bien estructurada y con un atractivo ritmo narrativo; nos presenta a dos personajes adolescentes que se lanzan a una increible aventura con audacia y honor. Caleb Hieman, hijo de ricos balleneros de Nantucket y Aliro Leftraru de Tirua, se hacen amigos mientras comparten la dura vida de los barcos balleneros.",
+ 	 "img": "public/img/tres.png",
+ 	 "nxtb": "4",
+ 	 "preb": "2"
+	}
+]

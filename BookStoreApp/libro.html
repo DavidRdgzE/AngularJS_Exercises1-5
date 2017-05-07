@@ -1,0 +1,16 @@
+<link rel="stylesheet" href="css/books.css">
+<body>
+<br><br>
+<p align="center">
+	<a href="#/libros"><-- Regresar</a>
+	<a href="index.html#/libro/{{libro.preb}}">Libro Anterior</a>
+	<a href="index.html#/libro/{{libro.nxtb}}">Siguiente Libro</a>
+</p>
+
+<h2>{{libro.titulo}} #{{id}}</h2>
+
+<p id="pn"><img ng-src="{{libro.img}}" width="95" height="150"><br/>
+
+<strong>{{libro.editorial}}</strong><br/>
+{{libro.descripcion}}</p>
+</body>

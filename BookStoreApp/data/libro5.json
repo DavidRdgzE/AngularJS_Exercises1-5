@@ -1,0 +1,12 @@
+[
+	{
+	 "id": "5",
+	 "titulo": "Harry Potter y la Orden del Fenix",
+ 	 "autor": "J. K. Rowling",
+ 	 "editorial": "Bloomsbury Publishing",
+ 	 "descripcion": "El libro comienza con la vida de Harry en Privet Drive, angustiado por ominosas pesadillas y por su aislamiento; el solo piensa en el peligro que representa Lord Voldemort, quien ahora tiene todos sus poderes de vuelta. Harry se siente ignorado por los vecinos del barrio y por sus tios y no tiene ganas de quedarse ahi, a pesar de lo que esta ocurriendo en el mundo magico (el regreso de Voldemort). Son los días más calurosos del mundo; Dudley, su primo, está más alto y gordo que nunca; Harry llega a hablar con él, hasta que éste lo provoca. De pronto, el calor de la tarde se desvanece y empieza a hacer un frío glacial, Harry y Dudley se refugian en un puente, pero aparecen dos dementores, que comienzan a robarle el alma a ambos. Harry saca su varita y realiza el Encantamiento Patronus para ahuyentar a los dementores; la Sra. Figg, una squib a quien en el barrio toman por chiflada, ayuda a Harry, ya que fue asignada junto a Mundungus Fletcher para protegerlo, por órdenes de Dumbledore.",
+ 	 "img": "public/img/cinco.png",
+ 	 "nxtb": "1",
+ 	 "preb": "4"
+	}
+]
